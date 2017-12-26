@@ -1,0 +1,24 @@
+{
+    "name": "engineor/ipssi-oop-php-2017",
+    "authors": [
+        {
+            "name": "Alexandre Masanes",
+            "email": "alexandre.masanes@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "*",
+        "symfony/yaml": "*",
+        "symfony/dotenv": "*",
+        "doctrine/orm": "*",
+        "php-di/php-di" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src/Application"
+        }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.9"
+    }
+}

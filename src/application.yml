@@ -1,0 +1,11 @@
+view:
+  extension: phtml
+  directory: views
+data-unit:
+  host: 127.0.0.1
+  dbname: community_management
+  user: doctrineuser
+  password: doctrinepassword
+  driver: pdo_mysql
+mvc:
+  controllers-path: /src/Application/Controller
